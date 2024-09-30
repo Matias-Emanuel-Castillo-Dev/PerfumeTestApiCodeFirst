@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\models\\perfumery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\models\\perfumery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\dataaccess\\perfumetestdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\dataaccess\\perfumetestdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\models\\perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\models\\perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerfumeTestDbContext.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\DataAccess\\PerfumeTestDbContext.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\DataAccess\\PerfumeTestDbContext.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\DataAccess\\PerfumeTestDbContext.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\DataAccess\\PerfumeTestDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:33:35.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Perfumery.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Perfumery.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Models\\Perfumery.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Perfumery.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\Models\\Perfumery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:31:26.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Perfume.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Perfume.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Models\\Perfume.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Perfume.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\Models\\Perfume.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:31:24.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Models\\Brand.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Brand.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\Models\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:22:10.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Models\\Stock.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\Stock.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\Models\\Stock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:16:44.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
