@@ -267,3 +267,4 @@ E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeTestApiBackend.pdb
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeTestApiBackend.genruntimeconfig.cache
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\ref\PerfumeTestApiBackend.dll
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeTestApiBackend.sourcelink.json
