@@ -9,7 +9,7 @@ namespace PerfumeTestApiBackend.Models
         [StringLength(20)]
         public string TypeGender { get; set; }
 
-        public int PerfumeID { get; set; }
-        public Perfume Perfume { get; set; }
+        public ICollection<Perfume> Perfumes { get; set; }
+
     }
 }

@@ -1,0 +1,15 @@
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools (para ejecutar comandos desde la consola de administrador de paquetes)
+Microsoft.VisualStudio.Web.CodeGeneration.Design (nos permite crear plantillas crud para una api a partir de nuestros modelos)
+
+MIGRACIONES
+-agregar
+
+Add-Migration nombreMigracion
+
+-remover
+Remove-Migration
+
+-aplicar migracion
+Update-Database
+

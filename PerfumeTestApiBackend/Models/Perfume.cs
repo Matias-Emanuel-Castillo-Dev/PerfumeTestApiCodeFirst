@@ -12,9 +12,14 @@ namespace PerfumeTestApiBackend.Models
         [Precision(precision:9,scale:2)]
         public decimal Price { get; set; }
 
-        public ICollection<Volume> Volumes { get; set; }
-        public ICollection<Brand> Brands { get; set; }
-        public ICollection<Gender> Genders { get; set; }
+        public int GenderID { get; set; }
+        public int BrandID { get; set; }
+        public int VolumeID { get; set; }
+
+
+        public Volume Volume { get; set; }
+        public Brand Brand { get; set; }
+        public Gender Gender { get; set; }
         public ICollection<Stock> Stocks { get; set; }
     }
 }

@@ -36,12 +36,7 @@ namespace PerfumeTestApiBackend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PerfumeID")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("PerfumeID");
 
                     b.ToTable("Marcas");
                 });
@@ -57,17 +52,12 @@ namespace PerfumeTestApiBackend.Migrations
                     b.Property<bool>("Available")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PerfumeID")
-                        .HasColumnType("int");
-
                     b.Property<string>("TypeGender")
                         .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PerfumeID");
 
                     b.ToTable("Generos");
                 });
@@ -83,6 +73,12 @@ namespace PerfumeTestApiBackend.Migrations
                     b.Property<bool>("Available")
                         .HasColumnType("bit");
 
+                    b.Property<int>("BrandID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GenderID")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -92,7 +88,16 @@ namespace PerfumeTestApiBackend.Migrations
                         .HasPrecision(9, 2)
                         .HasColumnType("decimal(9,2)");
 
+                    b.Property<int>("VolumeID")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("BrandID");
+
+                    b.HasIndex("GenderID");
+
+                    b.HasIndex("VolumeID");
 
                     b.ToTable("Perfumes");
                 });
@@ -151,39 +156,39 @@ namespace PerfumeTestApiBackend.Migrations
                     b.Property<bool>("Available")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PerfumeID")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PerfumeID");
-
                     b.ToTable("Volumes");
                 });
 
-            modelBuilder.Entity("PerfumeTestApiBackend.Models.Brand", b =>
+            modelBuilder.Entity("PerfumeTestApiBackend.Models.Perfume", b =>
                 {
-                    b.HasOne("PerfumeTestApiBackend.Models.Perfume", "Perfume")
-                        .WithMany("Brands")
-                        .HasForeignKey("PerfumeID")
+                    b.HasOne("PerfumeTestApiBackend.Models.Brand", "Brand")
+                        .WithMany("Perfumes")
+                        .HasForeignKey("BrandID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Perfume");
-                });
-
-            modelBuilder.Entity("PerfumeTestApiBackend.Models.Gender", b =>
-                {
-                    b.HasOne("PerfumeTestApiBackend.Models.Perfume", "Perfume")
-                        .WithMany("Genders")
-                        .HasForeignKey("PerfumeID")
+                    b.HasOne("PerfumeTestApiBackend.Models.Gender", "Gender")
+                        .WithMany("Perfumes")
+                        .HasForeignKey("GenderID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Perfume");
+                    b.HasOne("PerfumeTestApiBackend.Models.Volume", "Volume")
+                        .WithMany("Perfumes")
+                        .HasForeignKey("VolumeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Brand");
+
+                    b.Navigation("Gender");
+
+                    b.Navigation("Volume");
                 });
 
             modelBuilder.Entity("PerfumeTestApiBackend.Models.Stock", b =>
@@ -205,31 +210,29 @@ namespace PerfumeTestApiBackend.Migrations
                     b.Navigation("Perfumery");
                 });
 
-            modelBuilder.Entity("PerfumeTestApiBackend.Models.Volume", b =>
+            modelBuilder.Entity("PerfumeTestApiBackend.Models.Brand", b =>
                 {
-                    b.HasOne("PerfumeTestApiBackend.Models.Perfume", "Perfume")
-                        .WithMany("Volumes")
-                        .HasForeignKey("PerfumeID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Perfumes");
+                });
 
-                    b.Navigation("Perfume");
+            modelBuilder.Entity("PerfumeTestApiBackend.Models.Gender", b =>
+                {
+                    b.Navigation("Perfumes");
                 });
 
             modelBuilder.Entity("PerfumeTestApiBackend.Models.Perfume", b =>
                 {
-                    b.Navigation("Brands");
-
-                    b.Navigation("Genders");
-
                     b.Navigation("Stocks");
-
-                    b.Navigation("Volumes");
                 });
 
             modelBuilder.Entity("PerfumeTestApiBackend.Models.Perfumery", b =>
                 {
                     b.Navigation("Stocks");
+                });
+
+            modelBuilder.Entity("PerfumeTestApiBackend.Models.Volume", b =>
+                {
+                    b.Navigation("Perfumes");
                 });
 #pragma warning restore 612, 618
         }
