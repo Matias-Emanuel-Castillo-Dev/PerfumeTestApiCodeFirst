@@ -20,6 +20,6 @@ namespace PerfumeTestApiBackend.Models
         public Volume Volume { get; set; }
         public Brand Brand { get; set; }
         public Gender Gender { get; set; }
-        public ICollection<Stock> Stocks { get; set; }
+        public ICollection<Stock> Stocks { get; set; }  
     }
 }
