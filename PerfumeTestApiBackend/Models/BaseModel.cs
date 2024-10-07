@@ -7,7 +7,5 @@ namespace PerfumeTestApiBackend.Models
         [Required]
         [Key]
         public int Id { get; set; }
-
-        public bool Available { get; set; }
     }
 }

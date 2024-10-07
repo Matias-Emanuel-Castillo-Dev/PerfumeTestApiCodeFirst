@@ -11,6 +11,8 @@ namespace PerfumeTestApiBackend.Models
 
         [Precision(precision:9,scale:2)]
         public decimal Price { get; set; }
+        public bool Available { get; set; }
+
 
         public int GenderID { get; set; }
         public int BrandID { get; set; }

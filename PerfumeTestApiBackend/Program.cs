@@ -10,7 +10,6 @@ namespace PerfumeTestApiBackend
             var builder = WebApplication.CreateBuilder(args);
 
 
-
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -24,11 +23,16 @@ namespace PerfumeTestApiBackend
             builder.Services.AddDbContext<PerfumeTestDbContext>(options => options.UseSqlServer(connectionString));
 
 
-
-
-
-
-
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowLocalhost",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:5500", "https://localhost:7190")
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
 
             var app = builder.Build();
 
@@ -45,6 +49,8 @@ namespace PerfumeTestApiBackend
 
 
             app.MapControllers();
+
+            app.UseCors("AllowLocalhost");
 
             app.Run();
         }
