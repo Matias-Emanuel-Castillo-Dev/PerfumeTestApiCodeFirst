@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using PerfumeTestApiBackend.DataAccess;
 using PerfumeTestApiBackend.Models;
 using PerfumeTestApiBackend.Models.DTOs;
+using PerfumeTestApiBackend.Repository;
+using PerfumeTestApiBackend.Services;
 
 namespace PerfumeTestApiBackend.Controllers
 {
@@ -11,66 +13,27 @@ namespace PerfumeTestApiBackend.Controllers
     [ApiController]
     public class PerfumesController : ControllerBase
     {
-        private readonly PerfumeTestDbContext _dbContext;
+        //private readonly PerfumeTestDbContext _dbContext;
+        private readonly IPerfumeRepository _repository;
 
-        public PerfumesController(PerfumeTestDbContext dbContext)
+        public PerfumesController(PerfumeTestDbContext dbContext, IPerfumeRepository repository)
         {
-            _dbContext = dbContext;
+            //_dbContext = dbContext;
+            _repository = repository;
         }
 
         [HttpGet]
-        public async Task<ActionResult<ICollection<PerfumeDTO>>> GetAllAsync()
+        public async Task<ActionResult<IEnumerable<PerfumeDTO>>> GetAllAsyncWithProjectTo()
         {
-            if (_dbContext.Perfumes == null)
+            IEnumerable<PerfumeDTO> result = await _repository.GetAllAsync();
+
+            if (!result.Any())
             {
                 return NotFound();
             }
-            return await _dbContext.Perfumes.Select(p => new PerfumeDTO()
-            {
-                Id = p.Id,
-                Name = p.Name,
-                Gender = p.Gender.TypeGender,
-                Brand = p.Brand.Name,
-                Volume = p.Volume.Quantity,
-                Price = p.Price,
-                Stock = p.Stocks.Select(s => new PerfumeryDTO()
-                {
-                    Name = s.Perfumery.Name,
-                    Address = s.Perfumery.Address,
-                    Amount = s.Amount
-                }).ToList(),
-                Available = p.Available
-            }).ToListAsync();
+            return Ok(result);
         }
 
-        [HttpGet("{id:int}")]
-        public async Task<ActionResult<PerfumeDTO>> GetByIdAsync(int id)
-        {
-            // use select loading
-            var perfume = await _dbContext.Perfumes.Select( p => 
-            new PerfumeDTO()
-            {
-                Id = p.Id,
-                Name = p.Name,
-                Gender = p.Gender.TypeGender,
-                Brand = p.Brand.Name,
-                Volume = p.Volume.Quantity,
-                Price = p.Price,
-                Stock = p.Stocks.Select(s => new PerfumeryDTO()
-                {
-                    Name = s.Perfumery.Name,
-                    Address = s.Perfumery.Address,
-                    Amount = s.Amount
-                }).ToList(),
-                Available = p.Available
-            }).FirstOrDefaultAsync( r => r.Id == id );
-
-            if (perfume == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(perfume);
-        } 
+       
     }
 }

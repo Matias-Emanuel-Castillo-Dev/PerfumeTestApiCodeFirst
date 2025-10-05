@@ -255,11 +255,6 @@ E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeTestApiBackend.MvcApplicationPartsAssemblyInfo.cache
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets.build.json
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets.development.json
-E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets\msbuild.PerfumeTestApiBackend.Microsoft.AspNetCore.StaticWebAssets.props
-E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets\msbuild.build.PerfumeTestApiBackend.props
-E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PerfumeTestApiBackend.props
-E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PerfumeTestApiBackend.props
-E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets.pack.json
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\scopedcss\bundle\PerfumeTestApiBackend.styles.css
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeT.E4BBBBC0.Up2Date
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeTestApiBackend.dll
@@ -268,3 +263,11 @@ E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeTestApiBackend.genruntimeconfig.cache
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\ref\PerfumeTestApiBackend.dll
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\PerfumeTestApiBackend.sourcelink.json
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\bin\Debug\net6.0\PerfumeTestApiBackend.staticwebassets.endpoints.json
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\rpswa.dswa.cache.json
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\rjimswa.dswa.cache.json
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets.build.json.cache

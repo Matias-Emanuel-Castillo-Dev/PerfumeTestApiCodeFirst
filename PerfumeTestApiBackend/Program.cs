@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PerfumeTestApiBackend.DataAccess;
+using PerfumeTestApiBackend.Repository;
+using PerfumeTestApiBackend.Services;
 
 namespace PerfumeTestApiBackend
 {
@@ -11,6 +13,7 @@ namespace PerfumeTestApiBackend
 
 
             // Add services to the container.
+            builder.Services.AddScoped<IPerfumeRepository,PerfumeRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

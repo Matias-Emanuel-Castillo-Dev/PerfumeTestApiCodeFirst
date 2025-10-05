@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "ffQtPEgYu/Qf4WXdYn4jfzoY4tEnOVrqbNWEEg4Lrho=",
+  "Hash": "N689R/C0WwTo6KsLpqm0dC1l425fik5x52rxs0YQ4H0=",
   "Source": "PerfumeTestApiBackend",
   "BasePath": "_content/PerfumeTestApiBackend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
