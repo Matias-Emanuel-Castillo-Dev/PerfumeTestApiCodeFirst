@@ -272,3 +272,5 @@ E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\obj\Debug\net6.0\staticwebassets.build.json.cache
 E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\bin\Debug\net6.0\BCrypt.Net-Next.dll
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MATIAS\INFORMATICA\PROJECTS\PerfumeTest\PerfumeTestApiBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

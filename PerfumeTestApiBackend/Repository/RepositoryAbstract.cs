@@ -24,6 +24,17 @@ namespace PerfumeTestApiBackend.Repository
         return _context.Set<TEntity>().Select(selector);
         }
 
+        protected virtual async Task<TResult?> GetEntityWithFilter<TResult>(
+        Expression<Func<TEntity, bool>> filter,
+        Expression<Func<TEntity, TResult>> selector)
+        {
+            return await _context.Set<TEntity>()
+                .Where(filter)
+                .Select(selector)
+                .FirstOrDefaultAsync();
+        }
+
+
         public virtual async Task<IEnumerable<TResult>> GetAllAsync<TResult>(
         Expression<Func<TEntity, TResult>> selector)
         {

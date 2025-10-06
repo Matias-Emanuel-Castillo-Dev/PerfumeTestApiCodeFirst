@@ -29,7 +29,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "PerfumeTestApiBackend.Models.Jwt.ResponseAuthentication",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "PerfumeTestApiBackend.Controllers.PerfumesController",

@@ -7,6 +7,8 @@ using PerfumeTestApiBackend.Migrations;
 using PerfumeTestApiBackend.Models.DTOs;
 using PerfumeTestApiBackend.Models;
 using PerfumeTestApiBackend.Services;
+using PerfumeTestApiBackend.Repository;
+using PerfumeTestApiBackend.Models.Jwt;
 
 namespace PerfumeTestApiBackend.Controllers
 {
@@ -15,12 +17,14 @@ namespace PerfumeTestApiBackend.Controllers
     public class LoginController : ControllerBase
     {
         private IEncriptionService _encriptionService;
-        private PerfumeTestDbContext _context;
+        private readonly UserRepository _repository;
+        private readonly ITokenService tokenService;
 
-        public LoginController(IEncriptionService encriptionService, PerfumeTestDbContext context)
+        public LoginController(IEncriptionService encriptionService,UserRepository repository, ITokenService tokenService)
         {
             _encriptionService = encriptionService;
-            _context = context;
+            _repository = repository;
+            this.tokenService = tokenService;
         }
 
         [HttpPost]
@@ -36,30 +40,31 @@ namespace PerfumeTestApiBackend.Controllers
                 PasswordHash = encription               
             };
 
-            await _context.AddAsync(entity);
-            _context.SaveChanges();
+            await _repository.AddAsync(entity);
             return Ok(entity);
         
         }
 
         [HttpPost("initSession")]
-        public async Task<ActionResult> Login(Credentials credentials)
+        public async Task<ActionResult<ResponseAuthentication>> Login(Credentials credentials)
         {
-            //string pass = _encriptionService.
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == credentials.Email);
-            if (user == null)
-            {
-                return NotFound();
-            }
+            var user = await _repository.GetByEmailAsync(credentials.Email);
+            if (user == null) {
+                ModelState.AddModelError("Credentials", "Invalid credentials");
+                return ValidationProblem(ModelState);
+            }           
 
-            bool result = _encriptionService.VerifyPassword(credentials.Password, user.PasswordHash);
+            bool result = _encriptionService.VerifyPassword(credentials.Password, user.Password);
 
             if (!result)
             {
-                return Unauthorized("credenciales invalidas");
+                ModelState.AddModelError("Credentials", "Invalid credentials");
+                return ValidationProblem(ModelState);
             }
 
-            return Ok("Bienvenido");
+            var responseAuth = tokenService.GenerateToken(user);
+
+            return Ok(responseAuth);
 
         }
     }

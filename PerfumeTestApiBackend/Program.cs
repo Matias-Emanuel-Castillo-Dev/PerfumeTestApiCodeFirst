@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PerfumeTestApiBackend.DataAccess;
+using PerfumeTestApiBackend.Extension;
 using PerfumeTestApiBackend.Repository;
 using PerfumeTestApiBackend.Services;
 
@@ -12,21 +13,24 @@ namespace PerfumeTestApiBackend
             var builder = WebApplication.CreateBuilder(args);
 
 
-            // Add services to the container.
-            builder.Services.AddScoped<PerfumeRepository>();
-
-            builder.Services.AddScoped<IEncriptionService, Encription>();
-
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            //add DbContext
-            const string CONNECTIONNAME = "PerfumeTestDb";
-            var connectionString = builder.Configuration.GetConnectionString(CONNECTIONNAME);
+
+            // ADD MY SERVICES
+            builder.Services.AddScoped<PerfumeRepository>();
+            builder.Services.AddScoped<UserRepository>();
+            builder.Services.AddScoped<IEncriptionService, Encription>();
+            builder.Services.AddScoped<ITokenService, TokenService>();
+
+            //add DbContext with user secrets
+            const string CONNECTIONNAME = "ConnectionStrings:DefaultConnection";
+            var connectionString = builder.Configuration.GetValue<string>(CONNECTIONNAME);
             builder.Services.AddDbContext<PerfumeTestDbContext>(options => options.UseSqlServer(connectionString));
 
+            builder.Services.AddJwtTokenService(builder.Configuration);
 
             builder.Services.AddCors(options =>
             {
@@ -50,6 +54,7 @@ namespace PerfumeTestApiBackend
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
