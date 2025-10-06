@@ -13,7 +13,9 @@ namespace PerfumeTestApiBackend
 
 
             // Add services to the container.
-            builder.Services.AddScoped<IPerfumeRepository,PerfumeRepository>();
+            builder.Services.AddScoped<PerfumeRepository>();
+
+            builder.Services.AddScoped<IEncriptionService, Encription>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

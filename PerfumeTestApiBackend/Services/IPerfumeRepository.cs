@@ -6,5 +6,6 @@ namespace PerfumeTestApiBackend.Services
     {
         Task<IEnumerable<PerfumeDTO?>> GetAllAsync();
         Task<PerfumeDTO?> GetByIdAsync(int id);
+
     }
 }

@@ -14,37 +14,7 @@ namespace PerfumeTestApiBackend.Repository
         {
             _context = context;
         }
-
-        //protected virtual IQueryable<TResult> ProjectTo<TResult>(
-        //Expression<Func<TEntity, TResult>> selector,
-        //params Expression<Func<TEntity, object>>[] includes)
-        //{
-        //    IQueryable<TEntity> query = _context.Set<TEntity>();
-
-        //    foreach (var include in includes)
-        //    {
-        //        query = query.Include(include);
-        //    }
-
-        //    return query.Select(selector);
-        //}
-
-        //public virtual async Task<IEnumerable<TResult>> GetAllAsync<TResult>(
-        //Expression<Func<TEntity, TResult>> selector,
-        //params Expression<Func<TEntity, object>>[] includes)
-        //{
-        //    return await ProjectTo(selector, includes).ToListAsync();
-        //}
-
-        //public virtual async Task<TResult?> GetByIdAsync<TResult>(
-        //int id,
-        //Expression<Func<TEntity, TResult>> selector,
-        //params Expression<Func<TEntity, object>>[] includes)
-        //{
-        //    return await ProjectTo(selector, includes)
-        //        .FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
-        //}
-
+           
 
         //VERSIÓN OPTIMIZADA - No usa Includes, solo Select
         protected virtual IQueryable<TResult> ProjectToOptimized<TResult>(
@@ -67,7 +37,6 @@ namespace PerfumeTestApiBackend.Repository
             return await ProjectToOptimized(selector)
                 .FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
         }
-
 
         public async Task<TEntity> AddAsync(TEntity entity)
         {

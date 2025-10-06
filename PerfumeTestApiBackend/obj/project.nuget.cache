@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g/oRq+1Wv6M=",
+  "dgSpecHash": "kNxsGMtMSKY=",
   "success": true,
   "projectFilePath": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\matu_\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\matu_\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\matu_\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\matu_\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

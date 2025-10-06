@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Bottled Parfum",
+    "gender": "Masculino",
+    "brand": "Hugo Boss",
+    "volume": 100,
+    "price": 167,
+    "available": false,
+    "stock": [
+      {
+        "name": "Rouge",
+        "address": "Av. Santa Fe 3253",
+        "amount": 120
+      },
+      {
+        "name": "Juleriaque",
+        "address": "Av. Corrientes 3247",
+        "amount": 100
+      },
+      {
+        "name": "Parfumerie",
+        "address": "Av. Cabildo 1950",
+        "amount": 75
+      }
+    ],
+    "id": 1
+  },
+  {
+    "name": "One Millon edt",
+    "gender": "Masculino",
+    "brand": "Paco Rabanne",
+    "volume": 50,
+    "price": 137,
+    "available": true,
+    "stock": [
+      {
+        "name": "Rouge",
+        "address": "Av. Santa Fe 3253",
+        "amount": 125
+      },
+      {
+        "name": "Juleriaque",
+        "address": "Av. Corrientes 3247",
+        "amount": 200
+      },
+      {
+        "name": "Parfumerie",
+        "address": "Av. Cabildo 1950",
+        "amount": 0
+      }
+    ],
+    "id": 2
+  },
+  {
+    "name": "K Edp",
+    "gender": "Masculino",
+    "brand": "Dolce & Gabbana",
+    "volume": 100,
+    "price": 213,
+    "available": true,
+    "stock": [
+      {
+        "name": "Rouge",
+        "address": "Av. Santa Fe 3253",
+        "amount": 30
+      },
+      {
+        "name": "Juleriaque",
+        "address": "Av. Corrientes 3247",
+        "amount": 65
+      },
+      {
+        "name": "Parfumerie",
+        "address": "Av. Cabildo 1950",
+        "amount": 80
+      }
+    ],
+    "id": 3
+  },
+  {
+    "name": "Homme Edt",
+    "gender": "Masculino",
+    "brand": "Dior",
+    "volume": 100,
+    "price": 181,
+    "available": true,
+    "stock": [
+      {
+        "name": "Rouge",
+        "address": "Av. Santa Fe 3253",
+        "amount": 180
+      },
+      {
+        "name": "Juleriaque",
+        "address": "Av. Corrientes 3247",
+        "amount": 210
+      },
+      {
+        "name": "Parfumerie",
+        "address": "Av. Cabildo 1950",
+        "amount": 15
+      }
+    ],
+    "id": 4
+  },
+  {
+    "name": "Invictus",
+    "gender": "Masculino",
+    "brand": "Paco Rabanne",
+    "volume": 100,
+    "price": 134,
+    "available": true,
+    "stock": [
+      {
+        "name": "Rouge",
+        "address": "Av. Santa Fe 3253",
+        "amount": 200
+      },
+      {
+        "name": "Juleriaque",
+        "address": "Av. Corrientes 3247",
+        "amount": 100
+      },
+      {
+        "name": "Parfumerie",
+        "address": "Av. Cabildo 1950",
+        "amount": 150
+      }
+    ],
+    "id": 6
+  },
+  {
+    "name": "Suavage Elixir",
+    "gender": "Masculino",
+    "brand": "Dior",
+    "volume": 100,
+    "price": 134,
+    "available": true,
+    "stock": [],
+    "id": 7
+  },
+  {
+    "name": "Homme",
+    "gender": "Masculino",
+    "brand": "Dior",
+    "volume": 100,
+    "price": 3000,
+    "available": true,
+    "stock": [
+      {
+        "name": "Rouge",
+        "address": "Av. Santa Fe 3253",
+        "amount": 200
+      }
+    ],
+    "id": 8
+  },
+  {
+    "name": "Homme Parfum",
+    "gender": "Masculino",
+    "brand": "Dior",
+    "volume": 100,
+    "price": 3000,
+    "available": true,
+    "stock": [],
+    "id": 9
+  },
+  {
+    "name": "Homme Cologne",
+    "gender": "Masculino",
+    "brand": "Dior",
+    "volume": 100,
+    "price": 1500,
+    "available": true,
+    "stock": [],
+    "id": 10
+  },
+  {
+    "name": "Homme Sport",
+    "gender": "Masculino",
+    "brand": "Dior",
+    "volume": 100,
+    "price": 2500,
+    "available": true,
+    "stock": [],
+    "id": 11
+  }
+]

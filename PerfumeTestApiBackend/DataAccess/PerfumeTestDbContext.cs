@@ -25,5 +25,7 @@ namespace PerfumeTestApiBackend.DataAccess
         public DbSet<Brand> Marcas { get; set; }
         public DbSet<Gender> Generos { get; set; }
         public DbSet<Volume> Volumes { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
