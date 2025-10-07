@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ namespace PerfumeTestApiBackend.Controllers
         }
 
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<PerfumeDTO>>> GetAllAsyncWithProjectTo()
         {
             IEnumerable<PerfumeDTO> result = await _repository.GetAllAsync();
@@ -35,6 +37,7 @@ namespace PerfumeTestApiBackend.Controllers
         }
 
         [HttpGet("{id:int}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin,User")]
         public async Task<ActionResult<PerfumeDTO>> GetAsyncById(int id)
         {
             PerfumeDTO resp = await _repository.GetByIdAsync(id);

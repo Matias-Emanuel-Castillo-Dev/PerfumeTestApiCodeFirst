@@ -27,7 +27,7 @@ namespace PerfumeTestApiBackend.Controllers
             this.tokenService = tokenService;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<ActionResult> Register(UserCreateDTO user) {
 
             string encription = _encriptionService.HashPassword(user.Password);

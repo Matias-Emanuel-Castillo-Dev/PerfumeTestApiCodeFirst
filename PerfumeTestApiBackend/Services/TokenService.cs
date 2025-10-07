@@ -27,9 +27,9 @@ namespace PerfumeTestApiBackend.Services
 
             var claims = new[]
             {
-            new Claim("email", usuario.Email),
-            new Claim("name", usuario.Name),
-            new Claim("role", usuario.Role)
+            new Claim(JwtRegisteredClaimNames.Email, usuario.Email),
+            new Claim(JwtRegisteredClaimNames.Name, usuario.Name),
+            new Claim(ClaimTypes.Role, usuario.Role)
             };
 
             var expire = DateTime.Now.AddMinutes(_jwtSettings.ExpireMinutes);

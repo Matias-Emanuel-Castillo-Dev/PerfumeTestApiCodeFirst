@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\controllers\\perfumescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\extension\\addjwttokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\extension\\addjwttokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|e:\\matias\\informatica\\projects\\perfumetest\\perfumetestapibackend\\repository\\perfumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C745AD-7D35-4357-B538-CB8C9D2A58D0}|PerfumeTestApiBackend\\PerfumeTestApiBackend.csproj|solutionrelative:perfumetestapibackend\\repository\\perfumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:01:19.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Services\\TokenService.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Services\\TokenService.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:55:28.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddJwtTokenServices.cs",
+              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Extension\\AddJwtTokenServices.cs",
+              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Extension\\AddJwtTokenServices.cs",
+              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Extension\\AddJwtTokenServices.cs",
+              "RelativeToolTip": "PerfumeTestApiBackend\\Extension\\AddJwtTokenServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:51:31.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,69 +87,12 @@
               "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Controllers\\PerfumesController.cs",
               "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Controllers\\PerfumesController.cs",
               "RelativeToolTip": "PerfumeTestApiBackend\\Controllers\\PerfumesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T21:00:25.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PerfumeRepository.cs",
-              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Repository\\PerfumeRepository.cs",
-              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Repository\\PerfumeRepository.cs",
-              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Repository\\PerfumeRepository.cs",
-              "RelativeToolTip": "PerfumeTestApiBackend\\Repository\\PerfumeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T20:54:58.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Program.cs",
-              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Program.cs",
-              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Program.cs",
-              "RelativeToolTip": "PerfumeTestApiBackend\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T20:30:40.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Services\\TokenService.cs",
-              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Services\\TokenService.cs",
-              "RelativeToolTip": "PerfumeTestApiBackend\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T20:19:45.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Controllers\\LoginController.cs",
-              "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "PerfumeTestApiBackend\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAEAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T19:34:36.571Z",
+              "WhenOpened": "2025-10-07T03:39:14.026Z",
               "EditorCaption": ""
             }
           ]
-        },
-        {
-          "DockedWidth": 208,
-          "SelectedChildIndex": -1,
-          "Children": []
         }
       ]
     },
@@ -143,7 +121,7 @@
               "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Models\\DTOs\\UserLoginDTO.cs",
               "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Models\\DTOs\\UserLoginDTO.cs",
               "RelativeToolTip": "PerfumeTestApiBackend\\Models\\DTOs\\UserLoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T19:56:19.938Z",
               "EditorCaption": ""
@@ -156,7 +134,7 @@
               "RelativeDocumentMoniker": "PerfumeTestApiBackend\\Repository\\UserRepository.cs",
               "ToolTip": "E:\\MATIAS\\INFORMATICA\\PROJECTS\\PerfumeTest\\PerfumeTestApiBackend\\Repository\\UserRepository.cs",
               "RelativeToolTip": "PerfumeTestApiBackend\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T19:27:34.079Z",
               "EditorCaption": ""

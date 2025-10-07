@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Login": {
+    "/api/Login/register": {
       "post": {
         "tags": [
           "Login"

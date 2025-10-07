@@ -1,22 +1,6 @@
 [
   {
     "ContainingType": "PerfumeTestApiBackend.Controllers.LoginController",
-    "Method": "Register",
-    "RelativePath": "api/Login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "user",
-        "Type": "PerfumeTestApiBackend.Models.DTOs.UserCreateDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PerfumeTestApiBackend.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/initSession",
     "HttpMethod": "POST",
@@ -40,6 +24,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "PerfumeTestApiBackend.Controllers.LoginController",
+    "Method": "Register",
+    "RelativePath": "api/Login/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "PerfumeTestApiBackend.Models.DTOs.UserCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PerfumeTestApiBackend.Controllers.PerfumesController",

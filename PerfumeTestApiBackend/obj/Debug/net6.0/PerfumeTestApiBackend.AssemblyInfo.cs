@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerfumeTestApiBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7257b6d94d8b9a6916ffda720e23814b17e5559c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdc3ccf158528f05e41e6bfe6968ab2ed2b40e91")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerfumeTestApiBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerfumeTestApiBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
